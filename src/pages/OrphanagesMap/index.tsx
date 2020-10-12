@@ -12,7 +12,7 @@ const OrphanagesMap: React.FC = () => (
          <PageMap>
             <aside>
                <header>
-                  <img src={mapMarkerImg} alt="happy"/>  
+                  <img src={mapMarkerImg} alt="happy"/>
                   <h2>Escolha um orfanato no mapa</h2>
                   <p>{`Muitas crianças estão esperando a sua visita :)`}</p>
                </header>
@@ -25,7 +25,7 @@ const OrphanagesMap: React.FC = () => (
                </footer>
             </aside>
 
-            <Map 
+            <Map
                center={[-31.759757,-52.3602303]}
                zoom={15}
                style={{
@@ -33,21 +33,20 @@ const OrphanagesMap: React.FC = () => (
                   height: '100%'
                }}
             >
-               {/* <TileLayer 
+               <TileLayer
                   url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
-               /> */}
-               <TileLayer 
-                  url= {`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
                />
+               {/* <TileLayer
+                  url= {`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+               /> */}
             </Map>
 
-            <Link to="" className="create-orphanage"> 
+            <Link to="" className="create-orphanage">
                <FiPlus size={32} color="#fff" />
             </Link>
          </PageMap>
 
 )
-            
+
 
 export default OrphanagesMap;
-            

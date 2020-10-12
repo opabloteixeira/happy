@@ -1,5 +1,5 @@
 <div align="center">
-    <img height=200 alt="github explorer" src="./src/images/Logo.svg" />
+    <img height=200 alt="github explorer" src="./src/images/marker.svg.svg" />
     <br>
 </div>
 
