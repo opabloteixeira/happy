@@ -82,7 +82,7 @@ const OrphanagePage = Styled.div`
 
             opacity: 0.6;
 
-            .active {
+            &.active {
                opacity: 1;
             }
 
@@ -177,6 +177,11 @@ const OrphanagePage = Styled.div`
                background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
                border: 1px solid #A1E9C5;
                color: #37C77F;
+               &.dont-open{
+                  background: linear-gradient(154.16deg, #FDF0F5 7.85%, #FFFFFF 91.03%);
+                  border: 1px solid #FFBCD4;
+                  color: #FF669D;
+               }
             }
          }
 
