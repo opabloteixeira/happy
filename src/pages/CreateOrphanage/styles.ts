@@ -19,6 +19,11 @@ const CreateOrphanage = Styled.div`
       padding: 64px 80px;
 
       overflow: hidden;
+      .leaflet-container {
+         margin-bottom: 40px;
+         border: 1px solid #D3E2E5;
+         border-radius: 20px;
+      }
    }
 
    form.create-orphanage-form fieldset {
