@@ -6,7 +6,7 @@
 
 <h4 align="center">
   Application to contact and visit orphanages <br>
-  <a target="blank" align="center" href="https://happy-eight.vercel.app/">click to access the project</a>
+  <a target="blank" align="center" href="https://happy-eight.vercel.app/">click to access the project ( without api )</a>
 </h4>
 
 
@@ -47,6 +47,8 @@ To clone and run this application, you'll need [Git](https://git-scm.com) From y
 
 ```bash
 
+# Run API
+https://github.com/opabloteixeira/happy-api
 
 # Clone this repository
 $ git clone https://github.com/opabloteixeira/happy

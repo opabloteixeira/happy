@@ -58,6 +58,7 @@ const CreateOrphanage = Styled.div`
       line-height: 24px;
    }
 
+
    form.create-orphanage-form .input-block label span {
       font-size: 14px;
       color: #8FA7B3;
@@ -88,13 +89,34 @@ const CreateOrphanage = Styled.div`
       line-height: 28px;
    }
 
-   form.create-orphanage-form .input-block .new-image {
-      width: 100%;
-      height: 64px;
+   form.create-orphanage-form .input-block .images-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 16px;
+
+      img {
+         width: 100%;
+         height: 96px;
+         object-fit: cover;
+         border-radius:20px;
+      }
+   }
+
+
+   form.create-orphanage-form .input-block .images-container .new-image {
+      height: 96px;
       background: #F5F8FA;
       border: 1px dashed #96D2F0;
       border-radius: 20px;
       cursor: pointer;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   form.create-orphanage-form .input-block input[type="file"] {
+      display:none;
    }
 
    form.create-orphanage-form .input-block .button-select {
