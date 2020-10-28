@@ -5,7 +5,7 @@
 
 
 <h4 align="center">
-  Application to contact and visit orphanages <br>
+  Application to contact and visit orphanages. <br>
   <a target="blank" align="center" href="https://happy-eight.vercel.app/">click to access the project ( without api )</a>
 </h4>
 
